@@ -4,12 +4,15 @@ public class Bullet : MonoBehaviour {
 
     private Transform target;
 
-    public float speed = 70f;
+    public float speed = 5f;
 
     public int damage = 50;
-
     public float explosionRadius = 0f;
     public GameObject impactEffect;
+
+    private Vector3 dir;
+    private Vector3 destroyed_Vector;
+    float distanceThisFrame;
 
     public void Seek(Transform _target)
     {
@@ -17,25 +20,39 @@ public class Bullet : MonoBehaviour {
     }
 	// Update is called once per frame
 	void Update () {
-		if(target == null)
+
+
+        distanceThisFrame = speed * Time.deltaTime;
+
+        if (target == null)
         {
-            Destroy(gameObject);
-            return;
+            dir = destroyed_Vector - transform.position;
+            Debug.Log("magnitude : " + dir.magnitude);
+            Debug.Log("distanceThisFrame : " + distanceThisFrame);
+            if (dir.magnitude <= distanceThisFrame)
+            {
+                
+                HitTarget();
+                return;
+            }
+            //Destroy(gameObject);
+            //return;
         }
-
-        Vector3 dir = target.position - transform.position;
-        float distanceThisFrame = speed * Time.deltaTime;
-
-        if(dir.magnitude <= distanceThisFrame)
+        else
         {
-            HitTarget();
-            return;
+            dir = target.position - transform.position;
+            
+            if (dir.magnitude <= distanceThisFrame)
+            {
+                HitTarget();
+                return;
+            }
+            destroyed_Vector = target.position;
         }
 
         transform.Translate(dir.normalized * distanceThisFrame, Space.World);
-        transform.LookAt(target); // make missile look at target
-
-
+        if(target != null)
+            transform.LookAt(target); // make missile look at target
 	}
 
     void HitTarget()
@@ -49,7 +66,8 @@ public class Bullet : MonoBehaviour {
         }
         else
         {
-            Damage(target);
+            if(target != null)
+                Damage(target);
         }
         Destroy(gameObject);
     }

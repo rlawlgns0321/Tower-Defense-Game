@@ -35,9 +35,11 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4837464586185520}
+  - component: {fileID: 224670676269342444}
   - component: {fileID: 114298685696105332}
   - component: {fileID: 120512122742063268}
+  - component: {fileID: 222841483491250090}
+  - component: {fileID: 114033928555503986}
   m_Layer: 0
   m_Name: Laser Beamer
   m_TagString: Untagged
@@ -197,7 +199,7 @@ Transform:
   m_Children:
   - {fileID: 4731558060518906}
   - {fileID: 4001497979631048}
-  m_Father: {fileID: 4837464586185520}
+  m_Father: {fileID: 224670676269342444}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!4 &4615941789810660
@@ -210,7 +212,7 @@ Transform:
   m_LocalPosition: {x: -2.43, y: 2.27, z: -0.44}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4837464586185520}
+  m_Father: {fileID: 224670676269342444}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4731558060518906
@@ -239,23 +241,6 @@ Transform:
   m_Father: {fileID: 4916093498108612}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4837464586185520
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1221531163825306}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4916093498108612}
-  - {fileID: 4937856820858272}
-  - {fileID: 4599127583746828}
-  - {fileID: 4615941789810660}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4916093498108612
 Transform:
   m_ObjectHideFlags: 1
@@ -268,7 +253,7 @@ Transform:
   m_Children:
   - {fileID: 4828471276579672}
   - {fileID: 4309315704727932}
-  m_Father: {fileID: 4837464586185520}
+  m_Father: {fileID: 224670676269342444}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4937856820858272
@@ -281,7 +266,7 @@ Transform:
   m_LocalPosition: {x: -0, y: 0.49525392, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 63.703358}
   m_Children: []
-  m_Father: {fileID: 4837464586185520}
+  m_Father: {fileID: 224670676269342444}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23136073987064990
@@ -401,6 +386,33 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114033928555503986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1221531163825306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 97e78dfd30923df4ab01ef94aa9cd7e2, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
 --- !u!114 &114298685696105332
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9807,3 +9819,31 @@ ParticleSystemRenderer:
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
+--- !u!222 &222841483491250090
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1221531163825306}
+--- !u!224 &224670676269342444
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1221531163825306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4916093498108612}
+  - {fileID: 4937856820858272}
+  - {fileID: 4599127583746828}
+  - {fileID: 4615941789810660}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}

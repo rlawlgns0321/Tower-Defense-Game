@@ -49,7 +49,7 @@ public class Enemy : MonoBehaviour {
         if (item_drop_percentage == 1) //item drop rate = 1%
             dropped = (GameObject)Instantiate(ItemBox, transform.position, Quaternion.identity); //drop item.
         Destroy(effect, 5f);
-        
+
         Destroy(gameObject);
         PlayerStats.Money += value;
     }
@@ -64,7 +64,9 @@ public class Enemy : MonoBehaviour {
             GetNextWaypoint();
         }
         if (health <= 0)
+        {
             Die();
+        }
     }
 
     void GetNextWaypoint()

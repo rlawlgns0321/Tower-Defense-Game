@@ -1,0 +1,152 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     2146 MB
+    Driver:   27.20.100.8280
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Github\Tower-Defense-Game\TowerDefense\Test1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Github\Tower-Defense-Game\TowerDefense\Test1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Github\Tower-Defense-Game\TowerDefense\Test1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Github\Tower-Defense-Game\TowerDefense\Test1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Github\Tower-Defense-Game\TowerDefense\Test1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Github\Tower-Defense-Game\TowerDefense\Test1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Github\Tower-Defense-Game\TowerDefense\Test1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Github\Tower-Defense-Game\TowerDefense\Test1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.029 seconds
+Platform assembly: D:\Github\Tower-Defense-Game\TowerDefense\Test1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Github\Tower-Defense-Game\TowerDefense\Test1_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.021900 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1e70 -> priority: 1 
+  Thread -> id: 4384 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+0.5020661
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0.9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnloadTime: 11.284100 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 479.
+Total: 1.058400 ms (FindLiveObjects: 0.053000 ms CreateObjectMapping: 0.037700 ms MarkObjects: 0.937900 ms  DeleteObjects: 0.028400 ms)
+
+Level_2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+0.9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnloadTime: 2.151500 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 470.
+Total: 0.446500 ms (FindLiveObjects: 0.057800 ms CreateObjectMapping: 0.013400 ms MarkObjects: 0.361000 ms  DeleteObjects: 0.006500 ms)
+
+0.2652632
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+0.9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0.9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0.9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+0.9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UnloadTime: 1.001000 ms
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2417.
+Total: 3.111500 ms (FindLiveObjects: 0.488900 ms CreateObjectMapping: 0.127000 ms MarkObjects: 2.468200 ms  DeleteObjects: 0.024100 ms)
+
+Now round : 1 Goal is 10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Laser Beamer Selected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Missile Launcher Selected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Turret build! Money left: 0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Died! health -25
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Now round : 2 Goal is 10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Standard Turret Selected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Died! health -25
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Died! health -25
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Can't build there! - TODO: Display on Screen
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+OnMouseOver Event called!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Can't build there! - TODO: Display on Screen
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Now round : 3 Goal is 10
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Died! health -25
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Died! health -25
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Died! health -25
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.180700 ms
+
+Unloading 326 unused Assets to reduce memory usage. Loaded Objects now: 512.
+Total: 52.099602 ms (FindLiveObjects: 0.145100 ms CreateObjectMapping: 0.055100 ms MarkObjects: 0.419100 ms  DeleteObjects: 51.479000 ms)
+

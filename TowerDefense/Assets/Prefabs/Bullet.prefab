@@ -95,5 +95,6 @@ MonoBehaviour:
   speed: 70
   damage: 50
   explosionRadius: 0
+  destroyed_transform: {fileID: 0}
   impactEffect: {fileID: 1340696043807160, guid: 3182d12ab72b5944b9d99234be93b0db,
     type: 2}

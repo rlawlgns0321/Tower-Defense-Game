@@ -58,9 +58,9 @@ public class Node : MonoBehaviour {
                 turretStat = this.turret.GetComponent<Turret>();
 
                 TurretRangeCircle.Delete_Range_Circle();
-                TurretRangeCircle.Draw_Range_Circle(range_circle, this, turretStat.range);                
+                TurretRangeCircle.Draw_Range_Circle(range_circle, this, turretStat.range);          //Show the range of turret by drawing purple circle.      
                 is_selecting = true;
-                SelectedUnitImage.update_image(this);
+                SelectedUnitImage.update_image(this);                                               //Show turret sprite and status for players.
                 SelectedUnitStat.update_stat(this);
                 //GeneralUIButton.PressCancelButton();
                 TowerControl.selected.TrimExcess();
